@@ -34,7 +34,6 @@ a {
 
 .spark-navbar .logo {
   display: flex;
-  width: 25px;
   height: 41.067px;
   gap: 12px;
 }
@@ -53,7 +52,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap:20px; */
   transition: all 0.3s ease;
   /* background-color: red; */
 }
