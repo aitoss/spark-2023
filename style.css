@@ -41,9 +41,9 @@
   backdrop-filter: blur(7px);
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 .spark-navbar .logo {
   display: flex;
@@ -58,6 +58,7 @@ a {
   font-size: 2rem;
   font-weight: 600;
   color: #d9d9d9;
+  text-decoration: none;
   /* margin-left: 20px; */
 }
 
@@ -81,6 +82,7 @@ a {
   /* padding: 10px; */
   /* border-radius: 5px; */
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .spark-navbar .notes-button {
@@ -99,6 +101,7 @@ a {
 
 .spark-navbar .notes-button a {
   color: #d9d9d9;
+  text-decoration: none;
 }
 
 
