@@ -3,7 +3,7 @@
   padding: 0;
   /* box-sizing: border-box; */
   font-family: 'Manrope', sans-serif;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 .hero {
@@ -109,6 +109,53 @@
   text-decoration: none;
 }
 
+.styling-nav-links {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+.styling-nav-links::before, .styling-nav-links::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.styling-nav-links::before {
+  background-color: #54b3d6;
+  height: 2px;
+  bottom: 0;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.styling-nav-links::after {
+  content: attr(data-replace);
+  height: 100%;
+  top: 0;
+  transform-origin: 100% 50%;
+  transform: translate3d(200%, 0, 0);
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+  color: #54b3d6;
+}
+
+.styling-nav-links:hover::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1.2);
+}
+.styling-nav-links:hover::after {
+  transform: translate3d(0, 0, 0);
+}
+
+.styling-nav-links span {
+  display: inline-block;
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.styling-nav-links:hover span {
+  transform: translate3d(-200%, 0, 0);
+}
+
 .hero .upper-icons{
   /* background-color: red; */
   width:80vw;
@@ -117,7 +164,7 @@
   top:150px;
   padding:0;
   margin:0;
-  z-index: 1000;
+  /* z-index: 500; */
   display: flex;
   justify-content: space-between;
 }
@@ -199,6 +246,45 @@
   padding: 40px;
   font-size: 72px;
 }
+
+.back-to-top {
+  position: fixed;
+  right: 2.5rem;
+  bottom: 2.5rem;
+  border-radius: 100%;
+  background: #292929;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
+
+.back-to-top:hover {
+  opacity: 60%;
+  scale:1.2;
+}
+
+.hidden {
+  opacity: 0%;
+}
+
+.back-to-top-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #dbdbdb;
+}
+
+.progress-bar1 {
+  height: 0.2rem;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:1000;
+}
+
+
 
 @media only screen and (max-width: 1920px) {
   .spark-navbar .spark-nav-links {
