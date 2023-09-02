@@ -20,16 +20,16 @@
 <body style="background-color: #1A1A1A !important;">
 
     <!-- // landing page -->
-    <section class="hero">
+    <section class="container-fluid d-flex justify-content-center hero">
 
-        <nav class="spark-navbar">
+        <nav class="spark-navbar d-flex container-fluid">
             <div class="logo">
                 <img src="./assets/Vector.png" alt="SPARK Logo">
                 <a class="spark-logo-text" href="#">Spark</a>
             </div>
             <div class="spark-nav-links">
-                <a href="#">Home</a>
-                <a href="#">Timeline</a>
+                <a href="#home">Home</a>
+                <a href="#Schedule">Schedule</a>
                 <a href="#">Speakers</a>
                 <a href="#">Mentors</a>
                 <a href="#">FAQs</a>
@@ -48,16 +48,26 @@
                 <a href="#">FAQs</a>
             </ul>
         </div> -->
-        <div class="bg"></div>
-        <div class="home">
+        <div class="container-fluid upper-icons">
+          <i class="fa-brands fa-html5 fa-bounce html-icon" style="color: #e75213;"></i>
+          <i class="fa-brands fa-css3-alt fa-flip html-icon" style="color: #2965f1;"></i>
+        </div>+
+        <div class="container-fluid lower-icons">
+          <i class="fa-brands fa-react fa-spin html-icon" style="color: #61dbfb;"></i>
+          <i class="fa-brands fa-node-js fa-beat-fade html-icon" style="color: #63b365;"></i>
+        </div>
+        <div class="bg container-fluid d-flex justify-content-center"></div>
+        <div class="home container-fluid d-flex justify-content-center">
             <h1>IGNITE THE <span>SPARK</span> OF <br>DEVELOPMENT</h1>
-            <img src="./assets/Spark-main.png" alt="">
+            <img class="container-fluid d-flex justify-content-center" src="./assets/Spark-main.png" alt="">
         </div>
 
     </section>
 
+    <script src="https://kit.fontawesome.com/477e6b72b4.js" crossorigin="anonymous"></script>
+
     <!-- // schedule section -->
-    <section class="schedule">
+    <section id="Schedule" class="schedule">
         <div class="page-wrapper is--hackaton-s2" style="background-color: #1A1A1A;" style: "">
             <section id="tracks" class="section-hkt2-tracks">
               <div class="page-padding">
