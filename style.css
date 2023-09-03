@@ -375,3 +375,11 @@
     position: fixed;
   }
 }
+/* 
+.group:hover .bg-pink-600  {
+  background-color: white;
+
+}
+.group:hover .text-white {
+  color: black;
+} */
