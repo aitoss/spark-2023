@@ -433,7 +433,10 @@ color: white;
 .box:hover{
   box-shadow: -4px 4px 4px #0c62e4;
 }
-
+.sticky-element{
+  position: sticky;
+  top: 4.2vw;
+}
 .right-schedule{
   width: 60vw;
 }
