@@ -23,7 +23,7 @@
   <!-- // landing page -->
   <section class="container-fluid d-flex justify-content-center hero">
 
-    <nav class="spark-navbar d-flex container-fluid">
+    <nav class="spark-navbar d-flex container-fluid" id="desktop-navbar">
       <div class="logo">
         <img src="./assets/Vector.png" alt="SPARK Logo">
         <a class="spark-logo-text" href="#">Spark</a>
@@ -45,16 +45,30 @@
       </div>
       <!-- this is my first push -->
     </nav>
-    <!-- <div class="mobile-nav-toggle">
-            <span><img src="./assets/Vector.png" alt="SPARK Logo"></span>
-            <ul class="links">
-                <a href="#">Home</a>
-                <a href="#">Timeline</a>
-                <a href="#">Speakers</a>
-                <a href="#">Mentors</a>
-                <a href="#">FAQs</a>
+
+    <div class="mobile-navbar">
+      <div class="phone">
+        <div class="content">
+          
+          <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+              <li><a id="mobile-nav-links" href="#">Home</a></li>
+              <li><a id="mobile-nav-links" href="#">About</a></li>
+              <li><a id="mobile-nav-links" href="#">Info</a></li>
+              <li><a id="mobile-nav-links" href="#">Contact</a></li>
             </ul>
-        </div> -->
+           </div>
+          </nav>
+        </div>
+       </div>
+    </div>
+
+
     <div class="container-fluid upper-icons">
       <i class="fa-brands fa-html5 fa-bounce html-icon" style="color: #e75213;"></i>
       <i class="fa-brands fa-css3-alt fa-flip html-icon" style="color: #2965f1;"></i>
