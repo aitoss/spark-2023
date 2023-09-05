@@ -378,14 +378,15 @@
     position: fixed;
   }
 }
-/* 
+
 .group:hover .bg-pink-600  {
-  background-color: white;
+  background-color: #0c62e4;
 
 }
 .group:hover .text-white {
   color: black;
-} */
+  z-index: 1;
+}
 #schedules{
 font-family: 'Manrope', sans-serif;
 color: white;
@@ -572,3 +573,4 @@ color: white;
   }
   
 } */
+

@@ -174,16 +174,16 @@
         crossorigin="anonymous"></script>
 </section>
   <!-- Events -->
-  <div class="flex flex-col">
-    <div class="text-white pl-[120px] mt-36 font-sans font-semibold text-6xl p-24" id="event-heading">
+  <div class="flex flex-col lg:block sm:flex-col md:flex-col">
+    <div class=" justify-center mx-auto font-sans p-24 lg:pl-[135px] lg:mt-32 font-semibold text-6xl text-white items-start drop-shadow-sm ">
       Events
     </div>
     <div class="flex flex-col lg:flex-row gap-5 items-center justify-evenly">
       <div
-        class="bg-[#0C62E4] group hover:bg-black group-hover:text-white hover:border-blue-400  transition-all flex rounded-xl border-l-4 border-b-4 h-[360px] w-[360px]">
+        class="bg-[#0C62E4] group hover:bg-black group-hover:text-white text-white hover:border-pink-600  transition-all flex rounded-xl border-l-4 border-b-4 h-[360px] w-[360px]">
         <div
-          class="w-[50px] h-[360px] ml-[32px] p-2 flex flex-col justify-between items-center flex-shrink-0 bg-pink-600 transition-all ">
-          <p class="text-white text-xs transform -rotate-90 mt-2">Replica1</p>
+          class="w-[50px] h-[360px] ml-[32px] p-4 flex flex-col justify-evenly items-center flex-shrink-0 bg-pink-600 transition-all ">
+          <p class="text-white text-xs transform -rotate-90 mt-1">Replica1</p>
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M18 36C18 36 17.96 35.0743 18.0097 33.6706C17.9162 30.3405 17.3251 24.3215 14.4 21.6C11.4359 18.8422 5.45967 18.1846 2.21599 18.0359C0.875029 18.0586 0 18 0 18C0 18 0.874205 17.9744 2.21599 18.0359C5.48384 17.9808 11.5187 17.4432 14.4 14.4C17.6273 10.9913 17.9803 3.42215 18.0046 0.864006C17.9939 0.317731 18 0 18 0C18 0 18.0098 0.317773 18.0046 0.864006C18.0547 3.41845 18.4723 10.9703 21.6 14.4C24.4646 17.5413 31.0635 17.9996 34.235 18.0295C35.3174 17.9862 36 18 36 18C36 18 35.3169 18.0396 34.235 18.0295C31.0874 18.1553 24.5584 18.7641 21.6 21.6C18.7488 24.3332 18.1274 30.344 18.0097 33.6706C18.049 35.0741 18 36 18 36Z"
@@ -196,6 +196,13 @@
               d="M18 36C18 36 17.96 35.0743 18.0097 33.6706C17.9162 30.3405 17.3251 24.3215 14.4 21.6C11.4359 18.8422 5.45967 18.1846 2.21599 18.0359C0.875029 18.0586 0 18 0 18C0 18 0.874205 17.9744 2.21599 18.0359C5.48384 17.9808 11.5187 17.4432 14.4 14.4C17.6273 10.9913 17.9803 3.42215 18.0046 0.864006C17.9939 0.317731 18 0 18 0C18 0 18.0098 0.317773 18.0046 0.864006C18.0547 3.41845 18.4723 10.9703 21.6 14.4C24.4646 17.5413 31.0635 17.9996 34.235 18.0295C35.3174 17.9862 36 18 36 18C36 18 35.3169 18.0396 34.235 18.0295C31.0874 18.1553 24.5584 18.7641 21.6 21.6C18.7488 24.3332 18.1274 30.344 18.0097 33.6706C18.049 35.0741 18 36 18 36Z"
               fill="white" />
           </svg>
+          <p class="text-white text-xs transform -rotate-90 mb-2 ">Replica1</p>
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M18 36C18 36 17.96 35.0743 18.0097 33.6706C17.9162 30.3405 17.3251 24.3215 14.4 21.6C11.4359 18.8422 5.45967 18.1846 2.21599 18.0359C0.875029 18.0586 0 18 0 18C0 18 0.874205 17.9744 2.21599 18.0359C5.48384 17.9808 11.5187 17.4432 14.4 14.4C17.6273 10.9913 17.9803 3.42215 18.0046 0.864006C17.9939 0.317731 18 0 18 0C18 0 18.0098 0.317773 18.0046 0.864006C18.0547 3.41845 18.4723 10.9703 21.6 14.4C24.4646 17.5413 31.0635 17.9996 34.235 18.0295C35.3174 17.9862 36 18 36 18C36 18 35.3169 18.0396 34.235 18.0295C31.0874 18.1553 24.5584 18.7641 21.6 21.6C18.7488 24.3332 18.1274 30.344 18.0097 33.6706C18.049 35.0741 18 36 18 36Z"
+              fill="white" />
+          </svg>
+          
         </div>
         <div class="flex flex-col mb-28 bg-blue text-white">
           <p class=" justify-center items-center text-3xl font-bold ml-14 mt-6 text-white">Replica 1.0</p>
@@ -215,16 +222,23 @@
       </div>
       <div>
         <div
-          class="bg-[#0C62E4] hover:bg-black flex rounded-xl hover:border-blue-400 border-l-4 border-b-4 h-[360px] w-[360px]">
+          class="bg-[#0C62E4] group hover:bg-black flex rounded-xl hover:border-pink-600 border-l-4 border-b-4 h-[360px] w-[360px]">
           <div
-            class="w-[50px] h-[360px] ml-[32px] p-3 flex flex-col justify-between items-center flex-shrink-0 bg-pink-600">
-            <p class="text-white text-[12px] transform -rotate-90 mt-2">Replica1</p>
+            class="w-[50px] h-[360px] ml-[32px] p-4 flex flex-col justify-evenly items-center flex-shrink-0 bg-pink-600">
+            <p class="text-white text-xs transform -rotate-90 mt-1">Replica2</p>
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M18 36C18 36 17.96 35.0743 18.0097 33.6706C17.9162 30.3405 17.3251 24.3215 14.4 21.6C11.4359 18.8422 5.45967 18.1846 2.21599 18.0359C0.875029 18.0586 0 18 0 18C0 18 0.874205 17.9744 2.21599 18.0359C5.48384 17.9808 11.5187 17.4432 14.4 14.4C17.6273 10.9913 17.9803 3.42215 18.0046 0.864006C17.9939 0.317731 18 0 18 0C18 0 18.0098 0.317773 18.0046 0.864006C18.0547 3.41845 18.4723 10.9703 21.6 14.4C24.4646 17.5413 31.0635 17.9996 34.235 18.0295C35.3174 17.9862 36 18 36 18C36 18 35.3169 18.0396 34.235 18.0295C31.0874 18.1553 24.5584 18.7641 21.6 21.6C18.7488 24.3332 18.1274 30.344 18.0097 33.6706C18.049 35.0741 18 36 18 36Z"
                 fill="white" />
             </svg>
-            <p class="text-white text-xs transform -rotate-90 mb-2">Replica2</p>
+  
+            <p class="text-white text-xs transform -rotate-90 mb-2 ">Replica2</p>
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18 36C18 36 17.96 35.0743 18.0097 33.6706C17.9162 30.3405 17.3251 24.3215 14.4 21.6C11.4359 18.8422 5.45967 18.1846 2.21599 18.0359C0.875029 18.0586 0 18 0 18C0 18 0.874205 17.9744 2.21599 18.0359C5.48384 17.9808 11.5187 17.4432 14.4 14.4C17.6273 10.9913 17.9803 3.42215 18.0046 0.864006C17.9939 0.317731 18 0 18 0C18 0 18.0098 0.317773 18.0046 0.864006C18.0547 3.41845 18.4723 10.9703 21.6 14.4C24.4646 17.5413 31.0635 17.9996 34.235 18.0295C35.3174 17.9862 36 18 36 18C36 18 35.3169 18.0396 34.235 18.0295C31.0874 18.1553 24.5584 18.7641 21.6 21.6C18.7488 24.3332 18.1274 30.344 18.0097 33.6706C18.049 35.0741 18 36 18 36Z"
+                fill="white" />
+            </svg>
+            <p class="text-white text-xs transform -rotate-90 mb-2 ">Replica2</p>
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M18 36C18 36 17.96 35.0743 18.0097 33.6706C17.9162 30.3405 17.3251 24.3215 14.4 21.6C11.4359 18.8422 5.45967 18.1846 2.21599 18.0359C0.875029 18.0586 0 18 0 18C0 18 0.874205 17.9744 2.21599 18.0359C5.48384 17.9808 11.5187 17.4432 14.4 14.4C17.6273 10.9913 17.9803 3.42215 18.0046 0.864006C17.9939 0.317731 18 0 18 0C18 0 18.0098 0.317773 18.0046 0.864006C18.0547 3.41845 18.4723 10.9703 21.6 14.4C24.4646 17.5413 31.0635 17.9996 34.235 18.0295C35.3174 17.9862 36 18 36 18C36 18 35.3169 18.0396 34.235 18.0295C31.0874 18.1553 24.5584 18.7641 21.6 21.6C18.7488 24.3332 18.1274 30.344 18.0097 33.6706C18.049 35.0741 18 36 18 36Z"
@@ -249,16 +263,23 @@
         </div>
       </div>
       <div
-        class="bg-[#0C62E4] group hover:bg-black hover:border-blue-400 flex rounded-xl border-l-4 border-b-4 h-[360px] w-[360px]">
+        class="bg-[#0C62E4] group hover:bg-black hover:border-pink-600 flex rounded-xl border-l-4 border-b-4 h-[360px] w-[360px]">
         <div
-          class="w-[50px] h-[360px] ml-[32px] p-2 flex flex-col justify-between items-center flex-shrink-0 bg-pink-600 hover:text-black">
-          <p class="text-white text-xs transform -rotate-90 mt-2">Graphica</p>
+          class="w-[50px] h-[360px] ml-[32px] p-4 flex flex-col justify-evenly items-center flex-shrink-0 bg-pink-600 hover:text-black">
+          <p class="text-white text-xs transform -rotate-90 mt-1">Graphica</p>
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M18 36C18 36 17.96 35.0743 18.0097 33.6706C17.9162 30.3405 17.3251 24.3215 14.4 21.6C11.4359 18.8422 5.45967 18.1846 2.21599 18.0359C0.875029 18.0586 0 18 0 18C0 18 0.874205 17.9744 2.21599 18.0359C5.48384 17.9808 11.5187 17.4432 14.4 14.4C17.6273 10.9913 17.9803 3.42215 18.0046 0.864006C17.9939 0.317731 18 0 18 0C18 0 18.0098 0.317773 18.0046 0.864006C18.0547 3.41845 18.4723 10.9703 21.6 14.4C24.4646 17.5413 31.0635 17.9996 34.235 18.0295C35.3174 17.9862 36 18 36 18C36 18 35.3169 18.0396 34.235 18.0295C31.0874 18.1553 24.5584 18.7641 21.6 21.6C18.7488 24.3332 18.1274 30.344 18.0097 33.6706C18.049 35.0741 18 36 18 36Z"
               fill="white" />
           </svg>
-          <p class="text-white text-xs transform -rotate-90 mb-2">Graphica</p>
+
+          <p class="text-white text-xs transform -rotate-90 mb-2 ">Graphica</p>
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M18 36C18 36 17.96 35.0743 18.0097 33.6706C17.9162 30.3405 17.3251 24.3215 14.4 21.6C11.4359 18.8422 5.45967 18.1846 2.21599 18.0359C0.875029 18.0586 0 18 0 18C0 18 0.874205 17.9744 2.21599 18.0359C5.48384 17.9808 11.5187 17.4432 14.4 14.4C17.6273 10.9913 17.9803 3.42215 18.0046 0.864006C17.9939 0.317731 18 0 18 0C18 0 18.0098 0.317773 18.0046 0.864006C18.0547 3.41845 18.4723 10.9703 21.6 14.4C24.4646 17.5413 31.0635 17.9996 34.235 18.0295C35.3174 17.9862 36 18 36 18C36 18 35.3169 18.0396 34.235 18.0295C31.0874 18.1553 24.5584 18.7641 21.6 21.6C18.7488 24.3332 18.1274 30.344 18.0097 33.6706C18.049 35.0741 18 36 18 36Z"
+              fill="white" />
+          </svg>
+          <p class="text-white text-xs transform -rotate-90 mb-2 ">Graphica</p>
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M18 36C18 36 17.96 35.0743 18.0097 33.6706C17.9162 30.3405 17.3251 24.3215 14.4 21.6C11.4359 18.8422 5.45967 18.1846 2.21599 18.0359C0.875029 18.0586 0 18 0 18C0 18 0.874205 17.9744 2.21599 18.0359C5.48384 17.9808 11.5187 17.4432 14.4 14.4C17.6273 10.9913 17.9803 3.42215 18.0046 0.864006C17.9939 0.317731 18 0 18 0C18 0 18.0098 0.317773 18.0046 0.864006C18.0547 3.41845 18.4723 10.9703 21.6 14.4C24.4646 17.5413 31.0635 17.9996 34.235 18.0295C35.3174 17.9862 36 18 36 18C36 18 35.3169 18.0396 34.235 18.0295C31.0874 18.1553 24.5584 18.7641 21.6 21.6C18.7488 24.3332 18.1274 30.344 18.0097 33.6706C18.049 35.0741 18 36 18 36Z"
@@ -267,8 +288,7 @@
         </div>
         <div class="flex flex-col mb-28 bg-blue text-white">
           <p class=" justify-center items-center text-3xl font-bold ml-14 mt-6 text-white">Graphica</p>
-          <p class="justify-self-center ml-4 mt-9">Each team in this event has to come up with a theme that has proper
-            functionality and a design. Participants are allowed to use HTML, CSS, Bootstrap and JS.</p>
+          <p class="justify-self-center justify-items-center ml-4 mt-9">Each team in this event has to come up with a theme that has proper functionality and a design. Participants are allowed to use HTML, CSS, Bootstrap and JS.</p>
           <div class="flex mt-5 justify-evenly">
             <button
               class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-110">
@@ -288,8 +308,8 @@
 
   <!-- FAQs -->
 
-  <div class="flex flex-col lg:block sm:flex-col md:flex-col">
-    <div class="mx-auto font-sans pl-[135px] mt-36 font-semibold text-6xl text-white items-center drop-shadow-sm ">
+  <div id="FAQs" class="flex flex-col lg:block sm:flex-col md:flex-col">
+    <div class="mx-auto self-center font-sans lg:pl-[135px] mt-32 font-semibold text-6xl text-white items-center drop-shadow-sm ">
       FAQs
     </div>
 
@@ -417,12 +437,12 @@
     <div class="lg:ml-[72px] lg:mt-6 mt-2 self-center">
       <img class="h-[123px] w-[123px] " src="assets/sparklogo.png">
     </div>
-    <div class="lg:mt-[64px] text-5xl font-semibold font-sans lg:ml-12 self-center  mt-3 text-[#D9D9D9]">
+    <div class="lg:mt-[64px] text-5xl font-semibold font-sans lg:ml-12 self-center justify-items-center  mt-3 text-[#D9D9D9]">
       SPARK
     </div>
-    <div class="lg:ml-[300px] lg:mt-14 lg:self-center text-[#D9D9D9] items-center mt-3 font-sans text-3xl">
+    <div class="lg:ml-[300px] lg:mt-14 lg:self-center text-[#D9D9D9] items-center mt-3 mx-auto font-sans text-3xl">
       Follow us on:
-      <div class="flex flex-row lg:mt-6 sm:mt-3 mt-2 mr-3 self-center justify-around">
+      <div class="flex flex-row lg:mt-6 sm:mt-3 mt-2 mr-3 mx-auto">
 
         <a class="p-1" href="https://github.com/aitoss"> <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -451,11 +471,15 @@
 
       </div>
     </div>
-    <div class="lg:ml-24 flex lg:flex-row text-[#D9D9D9] flex-col self-center lg:mt-16 mb-1 mt-3">
+    <div class="lg:ml-24 flex lg:flex-row text-[#D9D9D9] flex-col lg:mr-40 self-center lg:mt-16 mb-1 mt-3">
+      <!-- <img class=" ml-[50px] mt-2 hidden mb-1 xl:block mr-4" src="assets/osslogop.png"> -->
+      <p class="font-sans text-2xl">Made with Love ❤ </p>
+          <!-- <img class="self-end lg:ml-28 hidden lg:block z-10" src="assets/osslogop.png"> -->
 
-      <p class="font-sans text-2xl lg:ml-[100px] lg:mt-[40px] ">Made with Love ❤ </p>
-          <img class=" ml-[50px] mt-2 mb-1 lg:visible mr-4" src="assets/osslogop.png">
+      
+          
     </div>
+  
 
   </div>
   <script src="app.js"></script>
