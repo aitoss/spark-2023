@@ -586,6 +586,8 @@ color: white;
 }
 .left-schedule{
   width: 30vw;
+  /* display: flex;
+  align-items: center; */
 }
 .left-schedule h2{
   font-size: 4vw;
@@ -626,7 +628,7 @@ color: white;
 }
 .sticky-element{
   position: sticky;
-  top: 4.2vw;
+  top: 35%;
 }
 .right-schedule{
   width: 60vw;
