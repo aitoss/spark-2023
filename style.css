@@ -57,6 +57,7 @@
   height: 36px;
   gap: 24px;
   cursor: pointer;
+  padding-left:12px;
 }
 
 .spark-navbar .spark-logo-text {
@@ -67,21 +68,14 @@
   font-weight: 600;
   color: #d9d9d9;
   text-decoration: none;
-  /* margin-left: 20px; */
-}
-
-.spark-navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: all 1s ease;
-  /* background-color: red; */
+  /* margin-right: 20px; */
 }
 .spark-nav-links {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
+  padding: 0 15px 0 15px;
 }
 .spark-navbar .spark-nav-links a {
   font-size: 1.25rem;
@@ -109,7 +103,7 @@
 
 .spark-navbar .notes-button a {
   color: #d9d9d9;
-  padding: 16px 32px;
+  padding: 15px 32px;
   text-decoration: none;
 }
 
@@ -306,9 +300,7 @@
   list-style-type: none;
 }
 
-
-
-.mobile-navbar {
+/* .mobile-navbar {
   margin-top: 50px; 
   Display: flex;
   justify-content: center;
@@ -428,7 +420,7 @@ nav {
 #menuToggle input:checked ~ ul
 {
   transform: none;
-}
+} */
 
 
 
@@ -451,8 +443,7 @@ nav {
 @media only screen and (max-width: 1250px) {
   
   .spark-navbar{
-    width: 90vw;
-    top:20px;
+    width:fit-content;
   }
 }
 
@@ -503,23 +494,24 @@ nav {
 }
 
 @media only screen and (max-width: 600px) {
-  .home>h1 {
-    font-size: 35px;
-}
-.mobile-navbar{
-  display: none;
-}
+    .home>h1 {
+      font-size: 35px;
+  }
+    .mobile-navbar{
+      display: none;
+    }
 }
 
 @media only screen and (max-width: 400px) {
-  #desktop-navbar{
-    width:100vw;
+  .spark-navbar{
+    opacity: 0;
   }
 
   .mobile-navbar{
     width: 100vw;
     position: fixed;
     position: absolute;
+    display:flex;
     top:0;
     height: 100px;
     z-index:1000;
@@ -527,7 +519,7 @@ nav {
 }
 
 @media only screen and (max-width: 320px) {
-  .spark-navbar {
+  .spark-navbar{
     display: none;
   }
 

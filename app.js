@@ -2,6 +2,17 @@ const showOnPx = 10;
 const backToTopButton = document.querySelector(".back-to-top");
 const pageProgressBar = document.querySelector(".progress-bar1");
 
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const mobileNav = document.querySelector(".mobile-navbar");
+
+  menuToggle.addEventListener("click", function () {
+    mobileNav.classList.toggle("open");
+  });
+});
+
+
+
 const scrollContainer = () => {
   return document.documentElement || document.body;
 };
