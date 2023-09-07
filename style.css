@@ -757,6 +757,12 @@
   align-items: center;
 }
 
+.img-btn img{
+  cursor: pointer;
+  width: 16.5%;
+  margin: auto 1.8%;
+}
+
 .box h5 {
   margin: 2% auto;
   width: 90%;
