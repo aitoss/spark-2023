@@ -26,17 +26,17 @@
         <img src="./assets/Vector.png" alt="SPARK Logo">
         <a class="spark-logo-text" href="#">Spark</a>
       </div>
-      <div class="spark-nav-links">
+      <div class="spark-nav-links ">
         <!-- <a class="home-nav-links" href="#home">Home</a> -->
-        <a href="#" id="style-2" class="home-nav-links styling-nav-links" data-replace="Home"><span>Home</span></a>
+        <a href="#" id="style-2" class="home-nav-links hover-underline-animation" data-replace="Home"><span>Home</span></a>
         <!-- <a class="styling-nav-links" href="#Schedule">Schedule</a> -->
-        <a href="#schedules" id="style-2" class="styling-nav-links" data-replace="Schedule"><span>Schedule</span></a>
+        <a href="#schedules" id="style-2" class="hover-underline-animation" data-replace="Schedule"><span>Schedule</span></a>
         <!-- <a class="styling-nav-links" href="#">Speakers</a> -->
-        <a href="#" id="style-2" class="styling-nav-links" data-replace="Speakers"><span>Speakers</span></a>
+        <a href="#" id="style-2" class="hover-underline-animation" data-replace="Speakers"><span>Speakers</span></a>
         <!-- <a class="styling-nav-links" href="#">Mentors</a> -->
-        <a href="#" id="style-2" class="styling-nav-links" data-replace="Mentors"><span>Mentors</span></a>
+        <a href="#" id="style-2" class="hover-underline-animation" data-replace="Mentors"><span>Mentors</span></a>
         <!-- <a class="styling-nav-links" href="#">FAQs</a> -->
-        <a href="#FAQs" id="style-2" class="styling-nav-links" data-replace="FAQs"><span>FAQs</span></a>
+        <a href="#FAQs" id="style-2" class="hover-underline-animation" data-replace="FAQs"><span>FAQs</span></a>
       </div>
       <div class="notes-button">
         <a href="#">Notes</a>
@@ -53,7 +53,7 @@
       <label class='menu-button-container' for="menu-toggle">
       <div class='menu-button'></div>
     </label>
-      <ul class="menu">
+      <ul class="menu ">
         <li><a href="#">Home</a></li>
         <li><a href="#schedules">Schedule</a></li>
         <li><a href="#">Speakers</a></li>
@@ -68,7 +68,8 @@
     </div>
     <div class="container-fluid lower-icons">
       <i class="fa-brands fa-react fa-spin html-icon icons-small" style="color: #61dbfb;"></i>
-      <i class="fa-brands fa-node-js fa-beat-fade html-icon icons-small" style="color: #63b365;"></i>
+      <img src="./assets/tailwind.svg" class="html-icon icons-small" alt="tailwind svg">
+      <!-- <i class="fa-brands fa-node-js fa-beat-fade html-icon icons-small" style="color: #63b365;"></i> -->
     </div>
     <div class="bg container-fluid d-flex justify-content-center"></div>
     <div class="home container-fluid d-flex justify-content-center">
@@ -130,7 +131,10 @@
                     </div>
                     <h5>VS Code Setup and HTML Basics</h5>
                     <p>setting up an IDE <br> </p>
-
+                    <div class="schedule-image img-btn">
+                      <img src="assets/youtube.png" alt=""  onclick="javascript:window.location='https://www.facebook.com/pages/Gr81';">
+                      <img src="assets/notion.png" alt="" onclick="javascript:window.location='https://www.facebook.com/pages/Gr81';">
+                    </div>
 
 
                 </div>
@@ -164,7 +168,7 @@
 
 
                 </div>
-                        <div class="box down " id="last">
+                        <div class="box down ">
 
                     <div class="card-number">[4]</div>
                     <div class="schedule-image">
@@ -176,6 +180,60 @@
                     <h5>VS Code Setup and HTML Basics</h5>
                     <p>setting up environment and learning basics about html tags </p>
                 </div>
+                <div class="box">
+                  <div class="card-number">[1]</div>
+                  <div class="schedule-image">
+                      <img src="assets/vs code.png" alt="">
+                      <img src="/assets/Group 316.png" alt="">
+                  </div>
+                  <h5>VS Code Setup and HTML Basics</h5>
+                  <p>setting up an IDE <br> </p>
+
+
+
+              </div>
+              <div class="box down">
+                  <div class="card-number">[2]</div>
+
+                  <div class="schedule-image">
+                      <img src="assets/Group 316.png" alt="HTML5">
+                      <img src="assets/css 1.png" alt="CSS3">
+                  </div>
+                  <h5>HTML Adv. and 
+                    CSS Basics</h5>
+                  <p>HTML and <br>
+                    Basic CSS Styling</p>
+
+              </div>
+              <div class="box">
+
+                  <div class="card-number">[3]</div>
+                  <div class="schedule-image">
+                      <!-- <img src="assets/vs code.png" alt=""> -->
+                      <img src="assets/css 1.png" alt="">
+
+                  </div>
+
+                  <h5>CSS Advanced</h5>
+                  <p>CSS FlexBox <br>
+                  and Grids </p>
+
+
+
+
+              </div>
+                      <div class="box down " id="last">
+
+                  <div class="card-number">[4]</div>
+                  <div class="schedule-image">
+                      <img src="assets/vs code.png" alt="">
+                      <img src="assets/vs code.png" alt="">
+
+                  </div>
+
+                  <h5>VS Code Setup and HTML Basics</h5>
+                  <p>setting up environment and learning basics about html tags </p>
+              </div>
         </div>
     </div>
 </div>
@@ -318,7 +376,7 @@
   </div>
   </div>
 
-
+  <!-- COMMENT -->
   <!-- FAQs -->
 
   <div id="FAQs" class="flex flex-col lg:block sm:flex-col md:flex-col">

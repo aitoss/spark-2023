@@ -6,14 +6,14 @@ const schedule = document.getElementById("scroll");
 
 window.addEventListener("scroll" , ()=>{
   let last_height = document.getElementById("last").getBoundingClientRect().top;
-  let scroll1 = window.scrollY;
-  let first_height = document.getElementById("first").getBoundingClientRect().top;
+  let scroll1 = window.scrollY + 200;
+  let first_height = document.getElementById("first").getBoundingClientRect().top - 250;
   console.log(`scroll = ${scroll1} and height  = ${first_height}`);
   let box_top = schedule.getBoundingClientRect().top;
   // console.log(scroll1);
 
   if(first_height < 0 && last_height > 0 ){
-    let number_of_boxes = scroll1/(( last_height - first_height)/6) -6 
+    let number_of_boxes = scroll1/(( last_height - first_height)/6) -1 
     console.log(number_of_boxes);
 
     for(let i = 0 ; i < 6  ; i++){
