@@ -526,7 +526,10 @@
     display: none;
   }
   .home img{
-    scale:1.1;
+    position: relative;
+    top:-10%;
+    scale:1.05;
+    /* padding: 0 2px 0 2px; */
   }
   .top-nav {
     display: flex;
