@@ -185,14 +185,17 @@
 </section>
   <!-- Events -->
   <div class="flex flex-col lg:block sm:flex-col md:flex-col">
-    <div class=" justify-center mx-auto font-sans p-24 lg:pl-[135px] lg:mt-32 font-semibold text-6xl text-white items-start drop-shadow-sm ">
+    <div class="p-4 ml-4 pb-6 lg:mb-8 self-center">
+    <div class=" justify-center mx-auto font-sans lg:pt-16 pt-6 lg:mt-32 lg:font-normal lg:pl-[54px] text-4xl font-semibold lg:text-6xl pb-2 text-white items-start drop-shadow-sm ">
       Events
     </div>
+    <span class="text-white text-xl lg:pl-[54px] justify-center">Get ready to showcase your web development skills! Our exciting competition is just around the corner.</span>
+  </div>
     <div class="flex flex-col lg:flex-row gap-5 items-center justify-evenly">
       <div
-        class="bg-[#0C62E4] group hover:bg-black group-hover:text-white text-white hover:border-pink-600  transition-all flex rounded-xl border-l-4 border-b-4 h-[360px] w-[360px]">
+        class="bg-[#0C62E4] group hover:bg-black group-hover:text-white text-white hover:duration-100 ease-in hover:border-pink-600  transition-all flex rounded-xl border-l-4 border-b-4 h-[360px] w-[360px] ">
         <div
-          class="w-[50px] h-[360px] ml-[32px] p-4 flex flex-col justify-evenly items-center flex-shrink-0 bg-pink-600 transition-all ">
+          class="w-[50px] h-[360px] ml-[32px]  p-4 flex flex-col justify-evenly items-center flex-shrink-0 bg-pink-600 transition-all  ">
           <p class="text-white text-xs transform -rotate-90 mt-1">Replica1</p>
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -319,13 +322,15 @@
   <!-- FAQs -->
 
   <div id="FAQs" class="flex flex-col lg:block sm:flex-col md:flex-col">
-    <div class="mx-auto self-center font-sans lg:pl-[135px] mt-32 font-semibold text-6xl text-white items-center drop-shadow-sm ">
+    <div class="p-4 lg:-mb-6 ml-4 lg:">
+    <div class=" justify-center mx-auto font-sans mt-4 lg:pt-8 pb-2  lg:mt-44 lg:font-normal lg:pl-[54px] text-4xl font-semibold lg:text-6xl text-white items-start drop-shadow-sm ">
       FAQs
     </div>
-
-    <main class="p-5 bg-light-blue">
+    <span class="text-white text-xl lg:pl-[54px] justify-center">Ask your doubts.</span>
+    </div>
+    <main class="lg:p-4 p-2 bg-light-blue">
       <div class="flex justify-center items-start my-2">
-        <div class="w-full sm:w-10/12 md:w-3/4 p-8 my-1">
+        <div class="w-full sm:w-10/12 md:w-3/4 lg:p-8 my-1">
           <ul class="flex flex-col">
             <li class="bg-gray-[#1f1f1f] my-2 shadow-sm " x-data="accordion(1)">
               <h2 @click="handleClick()"
@@ -340,7 +345,7 @@
                 </svg>
               </h2>
               <div x-ref="tab" :style="handleToggle()"
-                class="border-l-2 border-white overflow-hidden max-h-0 duration-500 transition-all">
+                class="border-l-2 border-[#0C62E4] overflow-hidden max-h-0 duration-500 transition-all">
                 <p class="p-3 text-white text-[18px]">
                   SPARK is a one-month long event organized by AIT OSS club, exclusively for the first-year
                   engineering students to introduce them to the field of web development.
@@ -350,7 +355,7 @@
             <li class="bg-[#1f1f1f] my-2 " x-data="accordion(2)">
               <h2 @click="handleClick()"
                 class="flex flex-row bg-[#1f1f1f] justify-between items-center font-semibold p-3 cursor-pointer">
-                <span class="text-white text-[20px]">What are the benefits you get from this session?</span>
+                <span class="text-white text-[20px]">What are the benefits?</span>
                 <svg :class="handleRotate()"
                   class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
                   viewBox="0 0 20 20">
@@ -359,7 +364,7 @@
                   </path>
                 </svg>
               </h2>
-              <div class="border-l-2 border-white overflow-hidden max-h-0 duration-500 transition-all" x-ref="tab"
+              <div class="border-l-2 border-pink-600 overflow-hidden max-h-0 duration-500 transition-all" x-ref="tab"
                 :style="handleToggle()">
                 <p class="p-3  text-white text-[18px]">
                   You will have a chance to kickstart your web devrlopment journey completely free of cost.
@@ -375,7 +380,7 @@
             <li class="bg-[#1f1f1f] my-2" x-data="accordion(3)">
               <h2 @click="handleClick()"
                 class="flex flex-row bg-[#1f1f1f] justify-between items-center font-semibold p-3 cursor-pointer">
-                <span class="text-white text-[20px]">Is there any mentor support for beginner?</span>
+                <span class="text-white text-[20px]">Is there any mentor support?</span>
                 <svg :class="handleRotate()"
                   class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
                   viewBox="0 0 20 20">
@@ -384,7 +389,7 @@
                   </path>
                 </svg>
               </h2>
-              <div class="border-l-2 border-white overflow-hidden max-h-0 duration-500 transition-all" x-ref="tab"
+              <div class="border-l-2 border-[#0C62E4] overflow-hidden max-h-0 duration-500 transition-all" x-ref="tab"
                 :style="handleToggle()">
                 <p class="p-3 text-[18px] text-white">
                   24/7 Mentor guidance will be there, you can reach out to them through Social Media handels provided
@@ -395,7 +400,7 @@
             <li class="bg-[#1f1f1f] my-2 " x-data="accordion(4)">
               <h2 @click="handleClick()"
                 class="flex flex-row bg-[#1f1f1f] justify-between items-center font-semibold p-3 cursor-pointer">
-                <span class="text-white text-[20px]">Do we have to pay any registration fees?</span>
+                <span class="text-white text-[20px]">Do we have to pay?</span>
                 <svg :class="handleRotate()"
                   class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
                   viewBox="0 0 20 20">
@@ -404,7 +409,7 @@
                   </path>
                 </svg>
               </h2>
-              <div class="border-l-2 border-white overflow-hidden max-h-0 duration-500 transition-all" x-ref="tab"
+              <div class="border-l-2 border-pink-600 overflow-hidden max-h-0 duration-500 transition-all" x-ref="tab"
                 :style="handleToggle()">
                 <p class="p-3 text-[18px] text-white">
                   No, it's completely free of cost.

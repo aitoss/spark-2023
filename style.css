@@ -577,8 +577,9 @@
 
 .group:hover .bg-pink-600  {
   background-color: #0c62e4;
-
+  animation-duration: 500ms;
 }
+
 .group:hover .text-white {
   color: black;
   z-index: 1;
