@@ -220,7 +220,7 @@
   background-repeat: no-repeat;
   z-index: -100;
   opacity: 0.1;
-  position: absolute;
+  position: fixed;
   top: 130px;
   left: 0;
   width: 100%;
@@ -260,6 +260,7 @@
 }
 
 .home>img {
+  transform: translateY(10px);
   height: 25vw;
 }
 
@@ -524,7 +525,9 @@
   .spark-navbar .spark-nav-links a {
     display: none;
   }
-
+  .home img{
+    scale:1.1;
+  }
   .top-nav {
     display: flex;
     justify-content: space-between;
