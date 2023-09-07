@@ -48,6 +48,13 @@ document.addEventListener("DOMContentLoaded", function () {
   menuToggle.addEventListener("click", function () {
     mobileNav.classList.toggle("open");
   });
+
+  document.addEventListener("click", function (event) {
+    if (mobileNav.contains(event.target) || !menuToggle.contains(event.target)) {
+      mobileNav.classList.remove("open");
+    }
+  });
+
 });
 
 
