@@ -882,3 +882,23 @@
   }
   
 } */
+
+.mentors {
+  display: none;
+}
+
+
+@media (min-width: 1291px) {
+  .mentors {
+    display: block;
+  }
+}
+
+#mobdiv {
+  display: none;
+}
+@media (max-width: 1291px) {
+  #mobdiv {
+    display: block;
+  }
+}
