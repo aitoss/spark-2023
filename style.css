@@ -612,8 +612,7 @@
     top: 14rem;
   }
 
-  .home>h1,
-  .home>img {
+  .home>h1{
     position: relative;
     top: -7.5rem;
     font-size: 1.25rem;
@@ -622,7 +621,12 @@
   }
 
   .home>img {
-    transform: scale(1.4) translateY(70px);
+    position: relative;
+    top: -7.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 130%;
+    transform: scale(1.25) translateY(70px);
   }
 
   .upper-icons {
@@ -856,7 +860,7 @@
   .left-schedule {
     width: 100%;
     /* text-align: center; */
-    margin-left: 15%;
+    /* margin-left: 15%; */
   }
 
   .schedule-para {
