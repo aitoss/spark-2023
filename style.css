@@ -902,3 +902,139 @@
     display: block;
   }
 }
+
+
+
+.group:hover img.absolute {
+  opacity: 1;
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-aksh {
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/aksircr.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.image-aksh:hover {
+  background-image: url('assets/aksircred.png'); 
+}
+
+.image-asm {
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/asmitacr.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.image-asm:hover {
+  background-image: url('assets/asmcred.png'); 
+}
+
+
+
+.image-tjsw {
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/tjswicr.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.image-tjsw:hover {
+  background-image: url('assets/tjwicred.png'); 
+}
+
+.image-hrshl {
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/hrshalcr.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.image-hrshl:hover {
+  background-image: url('assets/hrshalcred.png'); 
+}
+
+.image-sagun {
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/sguncr.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.image-sagun:hover {
+  background-image: url('assets/sguncred.png'); 
+}
+
+.image-nikita {
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/nikitacr.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.image-nikita:hover {
+  background-image: url('assets/nkitacred.png'); 
+  
+}
+
+
+.image-sprveen {
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/sprveencr.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.image-sprveen:hover {
+  background-image: url('assets/sprveencred.png'); 
+}
+
+.image-abs {
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/abhaycr.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.image-abs:hover {
+  background-image: url('assets/abscred.png'); 
+}
+
+.image-umang {
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/umngcr.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.image-umang:hover {
+  background-image: url('assets/umngcred.png'); 
+}
+
+.image-sujeet {
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/sujeetcr.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.image-sujeet:hover {
+  background-image: url('assets/sjeetcred.png'); 
+}
