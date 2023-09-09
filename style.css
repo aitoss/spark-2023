@@ -71,7 +71,16 @@
   text-decoration: none;
   /* margin-right: 20px; */
 }
+/* #spark-1{ */
+  /* position: absolute; */
+  /* clip: rect(0, 200px, 200px, 0); */
+}
 
+.sparklogo{
+  background-image: url('assets/spark\ logo.png');
+  background-repeat: no-repeat;
+  
+}
 .spark-nav-links {
   display: flex;
   justify-content: center;
