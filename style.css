@@ -667,18 +667,21 @@
 
 .left-schedule {
   width: 30vw;
+  z-index: -1;
   /* display: flex;
   align-items: center; */
 }
 
 .left-schedule-content{
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .left-schedule h2 {
   font-size: 60px;
   font-weight: 400;
+  z-index: 1000;
+  overflow: visible;
 }
 
 .schedule-para {
@@ -686,8 +689,13 @@
 }
 
 .left-schedule-container {
-  margin-left: -50px;
+  /* margin-left: -10%; */
   margin-top: 1vw;
+  z-index: 1000;
+}
+
+.spacing-left{
+  margin-left: 3.5%;
 }
 
 
@@ -760,6 +768,7 @@
 
 .right-schedule {
   width: 60%;
+  z-index: -5;
 }
 
 .right-schedule-container {
@@ -770,7 +779,7 @@
   flex-wrap: wrap;
   margin-bottom: 5%;
   margin: auto auto auto 10%;
-
+  z-index: 1000;
 }
 
 .down {
@@ -828,7 +837,7 @@
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
   .schedule {
     display: flex;
     flex-direction: column;
@@ -880,8 +889,23 @@
   }
 
   .left-schedule h2 {
-    font-size: 10vw;
-    font-weight: 700;
+    font-size: 3.5rem;
+    font-weight: 400;
+    overflow: visible;
+    z-index: 1000;
+  }
+
+  .left-schedule p , #event-heading p , #faqs-heading p ,#mentors1 h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    word-spacing: 2px;
+    padding-left:2rem;
+    /* letter-spacing: 10%; */
+  }
+
+  #event-content-p ,.left-schedule-content .schedule-para , #faqs-content{
+    font-size:1.2rem;
+    padding-left:2rem;
   }
 
   .left-schedule p {
