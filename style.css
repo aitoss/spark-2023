@@ -730,9 +730,10 @@
   font-size: 1.25rem;
   font-weight: 300;
   word-spacing: 2px;
+
 }
 
-#event-heading , #faqs-heading{
+#event-heading p, #faqs-heading p{
   font-size:60px;
   font-weight: 400;
   font-family: 'Manrope', sans-serif;
