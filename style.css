@@ -677,7 +677,8 @@
 }
 
 .left-schedule h2 {
-  font-size: 4vw;
+  font-size: 60px;
+  font-weight: 400;
 }
 
 .schedule-para {
@@ -685,17 +686,24 @@
 }
 
 .left-schedule-container {
-  margin-left: 5vw;
+  margin-left: -50px;
   margin-top: 1vw;
 }
 
+
+#mentors1 h1{
+  font-size: 60px;
+  font-weight: 400;
+  font-family: 'Manrope', sans-serif;
+}
 .schedule-progress-bar {
   display: flex;
   margin-top: 1vw;
+  margin-left:25px;
 }
 
 .paralleogram {
-  margin-right: 3px;
+  margin-right: 5px;
   background-color: white;
   height: 25px;
   width: 20px;
@@ -704,7 +712,25 @@
 
 .left-schedule p {
   margin-top: 1vw;
+  font-size: 1.5rem;
+  font-weight: 300;
+  word-spacing: 2px;
+  /* letter-spacing: 10%; */
 }
+
+#event-content-p , #faqs-content{
+  font-size: 1.5rem;
+  font-weight: 300;
+  word-spacing: 2px;
+}
+
+#event-heading , #faqs-heading{
+  font-size:60px;
+  font-weight: 400;
+  font-family: 'Manrope', sans-serif;
+}
+
+
 
 .box {
   display: inline-block;
@@ -712,9 +738,14 @@
   /* background-color: white; */
   width: 22vw;
   height: 24vw;
-  margin: 30px 10px auto 10px;
+  /* margin: 30px 10px auto 10px; */
+  /* margin:-40px 0; */
   border-radius: 0.7vw;
   transition: 0.2s;
+}
+
+.second{
+  margin-top:-125px;
 }
 
 .box:hover {
@@ -742,7 +773,8 @@
 }
 
 .down {
-  transform:translateX(100%);
+  transform:translateX(125%) translateY(-25%);
+  /* padding:0 0 0 15px; */
 }
 
 /* .container-of-one{
