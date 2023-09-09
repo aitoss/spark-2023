@@ -742,6 +742,7 @@
   /* margin:-40px 0; */
   border-radius: 0.7vw;
   transition: 0.2s;
+  box-shadow: -4px 4px 4px #0c62e4;
 }
 
 .second{
@@ -863,6 +864,7 @@
     height: 90vw;
     border-radius: 2vw;
     margin: 5%;
+    box-shadow: -4px 4px 4px #0c62e4;
   }
 
   .box h5 {
