@@ -715,6 +715,7 @@
   margin: 30px 10px auto 10px;
   border-radius: 0.7vw;
   transition: 0.2s;
+  box-shadow: -4px 4px 4px #0c62e4;
 }
 
 .box:hover {
@@ -831,6 +832,7 @@
     height: 90vw;
     border-radius: 2vw;
     margin: 5%;
+    box-shadow: -4px 4px 4px #0c62e4;
   }
 
   .box h5 {
