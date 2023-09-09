@@ -727,7 +727,7 @@
 }
 
 #event-content-p , #faqs-content{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 300;
   word-spacing: 2px;
 }
@@ -889,29 +889,31 @@
   }
 
   .left-schedule h2 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 400;
     overflow: visible;
     z-index: 1000;
+    padding-left:2rem !important;
   }
 
-  .left-schedule p , #event-heading p , #faqs-heading p ,#mentors1 h1{
+  .left-schedule p , #event-heading p , #faqs-heading p ,#mentors1 h1 ,#event-content-p{
     font-size: 2.5rem;
     font-weight: 400;
     word-spacing: 2px;
-    padding-left:2rem;
+    padding-left:2rem !important;
+    /* z-index: 1000; */
     /* letter-spacing: 10%; */
   }
 
   #event-content-p ,.left-schedule-content .schedule-para , #faqs-content{
     font-size:1.2rem;
-    padding-left:2rem;
+    padding-left:2rem !important;
   }
 
   .left-schedule p {
     font-size: 4vw;
     text-align: left;
-    width: 70%;
+    width: 90%;
     /* margin-left: 10vw; */
   }
 
