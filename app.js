@@ -91,3 +91,10 @@ backToTopButton.addEventListener("click", goToTop);
 
 // console.log("hello");
 
+
+let card1 =()=>{
+    window.alert("hello");
+}
+
+
+// let pos = window.addEventListener("load" , card1)
