@@ -74,13 +74,13 @@
 /* #spark-1{ */
   /* position: absolute; */
   /* clip: rect(0, 200px, 200px, 0); */
-}
+/* } */
 
-.sparklogo{
-  background-image: url('assets/spark\ logo.png');
+/* .sparklogo{
+  background-image: url('assets/sparklogo.png');
   background-repeat: no-repeat;
   
-}
+} */
 .spark-nav-links {
   display: flex;
   justify-content: center;
@@ -817,11 +817,6 @@
   align-items: center;
 }
 
-.img-btn img{
-  cursor: pointer;
-  width: 16.5%;
-  margin: auto 1.8%;
-}
 
 .box h5 {
   margin: 2% auto;
@@ -869,9 +864,7 @@
     align-items: center;
   }
 
-  .container-of-one {
-    /* transform: translateY(calc(0vw)); */
-  }
+ 
 
   .schedule-progress-bar {
     display: none;
@@ -1116,4 +1109,12 @@
 
 .image-sujeet:hover {
   background-image: url('assets/sjeetcred.png'); 
+}
+
+
+
+.img-btn img{
+  cursor: pointer !important;
+  width: 16.5%  ;
+  margin: auto 1.8%;
 }
