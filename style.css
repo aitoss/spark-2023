@@ -227,9 +227,9 @@
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -100;
+  z-index: -100000;
   opacity: 0.1;
-  position: absolute;
+  position: fixed;
   top: 130px;
   left: 0;
   width: 100%;
