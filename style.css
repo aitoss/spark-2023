@@ -1140,11 +1140,11 @@
 }
 
 .no-hover>img{
-  cursor: pointer !important;
   width: 16.5%  ;
   margin: auto 1.8%;
-  z-index:6969696969 !important;
+  z-index:6969696969;
 }
 .no-hover:hover{
   transform: scale(1);
+  cursor: none;
 }
