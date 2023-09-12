@@ -1134,3 +1134,17 @@
 #footer_font div{
   font-family: 'Manrope', sans-serif;
 }
+
+#sparklogomain {
+  border-radius: 50%;
+}
+
+.no-hover>img{
+  cursor: pointer !important;
+  width: 16.5%  ;
+  margin: auto 1.8%;
+  z-index:6969696969 !important;
+}
+.no-hover:hover{
+  transform: scale(1);
+}
