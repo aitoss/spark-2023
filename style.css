@@ -1126,3 +1126,11 @@
 .img-btn>img:hover{
   transform: scale(1.1);
 }
+
+#footer_font p{
+  font-family: 'Manrope', sans-serif;
+}
+
+#footer_font div{
+  font-family: 'Manrope', sans-serif;
+}
